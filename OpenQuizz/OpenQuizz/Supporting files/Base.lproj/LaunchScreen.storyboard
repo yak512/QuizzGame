@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Loading" translatesAutoresizingMaskIntoConstraints="NO" id="Kw2-Q7-mSp">
+                                <rect key="frame" x="263.5" y="367" width="241" height="290"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Kw2-Q7-mSp" secondAttribute="height" multiplier="241:290" id="1ov-Js-JJW"/>
+                                    <constraint firstAttribute="width" constant="241" id="7ru-4b-pcM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="241" id="HIC-if-nup"/>
+                                    <constraint firstAttribute="width" secondItem="Kw2-Q7-mSp" secondAttribute="height" multiplier="241:290" id="W87-t7-MHC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3294117647" green="0.40000000000000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.3294117647" green="0.40000000000000002" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kw2-Q7-mSp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Jzv-ZH-hfI"/>
+                            <constraint firstItem="Kw2-Q7-mSp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eX1-xq-olQ"/>
+                            <constraint firstItem="Kw2-Q7-mSp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="kTn-bC-HCE"/>
+                            <constraint firstItem="Kw2-Q7-mSp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o3f-mN-S7A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Loading" width="241" height="290"/>
+    </resources>
+</document>
